@@ -1,27 +1,25 @@
-#  F O O D M A P
+# A Comerrr!
 
-Crea una web-app que a través de un input pueda filtrar los restaurantes
-que se encuentran cerca de ti *(Tú decides la estructura que tendrán tus datos,
-puedes crear una lista de restaurantes en un arreglo, en un objeto, consumir una API, etc. Lo importante es que el contenido debe ser dinámico y no estático y el diseño es totalmente libre)*.
+Llega la hora de comer y la gran incógnita es que vamos a comer?
+
+A comerrr! te muestra los lugares cercanos de acuerdo a tu ubicación, y si eres de las personas indecisas te da una ayudadita con sus filtros:
+
+ - Los recomendados;
+ - No tan  buenos, y;
+ - Abierto ahora
+
+Ahora sí puedes tomar la mejor decisión al momento de salir a comer!
 
 #### Flujo de la aplicación.
+Entra a la aplicación y conoce los lugares cercanos, filtra la información y dirígete a comerrr!
 
-Vista splash con duración de 2 segundos que redirecciona a tu vista
-principal.
-![Splash](https://github.com/AnaSalazar/curricula-js/blob/04-social-network/04-social-network/02-jquery/08-code-challenges/foodmap/splash.jpg?raw=true)
+### A Comerrr!
 
-En la vista principal se muestran todos los restaurantes "cerca de ti" junto
-con el input para filtrar tu elección *(Los criterios de filtrado son decisión
-tuya, puede ser por tipo de comida, costos, orden alfabético, etc.)*.
-![vista principal](https://github.com/AnaSalazar/curricula-js/blob/04-social-network/04-social-network/02-jquery/08-code-challenges/foodmap/2.jpg?raw=true)
+Es una web-app que te ayuda a encontrar lugares de comida cercanos a tu ubicación. Déjanos tus comentarios para poder seguir mejorando.
 
-Ya que se hizo la elección del filtro deben mostrarse únicamente aquellos
-restaurantes que cumplan con la condición.
-![vista filtrado](https://github.com/AnaSalazar/curricula-js/blob/04-social-network/04-social-network/02-jquery/08-code-challenges/foodmap/3.jpg?raw=true)
+#### Instrucciones para desarrolladorxs:
 
-Al seleccionar alguno de los restaurantes, deberá mostrarse la información de
-este a través de un modal.
-![modal imagen](https://github.com/AnaSalazar/curricula-js/blob/04-social-network/04-social-network/02-jquery/08-code-challenges/foodmap/5.jpg?raw=true)
-
-Una vez cerrado el modal debe volver a la vista principal.
-![ultima vista](https://github.com/AnaSalazar/curricula-js/blob/04-social-network/04-social-network/02-jquery/08-code-challenges/foodmap/6.jpg?raw=true)
+ 1. Realiza un fork de este repositorio. 2.️ Clona tu fork a tu
+    computadora.
+    
+ 2. Instala las dependencias del proyecto con el comando npm install. Si deseas aportar al proyecto escríbenos un issue o haz un pull request.
