@@ -137,9 +137,7 @@ btnOpen.addEventListener('click', element => {
       imageRest = '../images/sinImagen.jpg';
     }
     if (resultInfo[i].opening_hours) {
-      console.log(resultInfo[i].opening_hours);
-      if (resultInfo[i].opening_hours.open_now == true) {
-        console.log(resultInfo[i].opening_hours.open_now);
+      if (resultInfo[i].opening_hours.open_now === true) {
         infoRest.innerHTML += `
     <!-- Button trigger modal -->
     <button type="button" class="btn btn-outline-warning waves-effect btn-sm" data-toggle="modal" data-target="#${resultInfo[i].id}">

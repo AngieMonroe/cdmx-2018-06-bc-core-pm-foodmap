@@ -24,7 +24,7 @@ function initMap(position) {
 }
   
 function callback(results, status) {
-  if (status == google.maps.places.PlacesServiceStatus.OK) {
+  if (status === google.maps.places.PlacesServiceStatus.OK) {
     resultInfo = results;
     console.log(resultInfo);
     for (let i = 0; i < results.length; i++) {
